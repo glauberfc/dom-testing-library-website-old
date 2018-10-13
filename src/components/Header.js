@@ -4,7 +4,7 @@ import { Flex, Image } from 'rebass'
 import styled from 'styled-components'
 import Fade from 'react-reveal/Fade'
 import RouteLink from './RouteLink'
-import Logo from './Logo/Portfolio.svg'
+import Logo from './Logo/Main-logo.svg'
 import { SectionConsumer } from './SectionContext'
 
 const HeaderContainer = styled(Headroom)`
@@ -26,7 +26,7 @@ const Header = () => (
         p={3}
       >
         <a href="#home">
-          <Image src={Logo} width="50px" alt="Portfolio Logo" />
+          <Image src={Logo} width="300px" alt="Dom Testing Library" />
         </a>
         <Flex mr={[0, 3, 5]}>
           <SectionConsumer>

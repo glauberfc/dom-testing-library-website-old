@@ -1,16 +1,18 @@
-const pinkPalette = {
-  background: '#FFFFFF',
-  backgroundDark: '#f0e6f6',
+const colorPalette = {
+  background: '#fff',
+  backgroundDark: '#333',
 
-  primary: '#7c37ad',
-  primaryLight: '#ae66df',
-  primaryDark: '#4b007d',
+  light: '#fff',
 
-  secondary: '#ff4081',
-  secondaryLight: '#ff79b0',
-  secondaryDark: '#c60055',
+  primary: '#e81c27',
+  primaryLight: '#e57373',
+  primaryDark: '#c62828',
+
+  secondary: '#333',
+  secondaryLight: '#ecf0f1',
+  secondaryDark: '#000',
 }
 
 module.exports = {
-  colors: pinkPalette,
+  colors: colorPalette,
 }
